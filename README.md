@@ -1,16 +1,21 @@
-## Hi there 👋
+Hi, I'm Mohamed 👋
 
-<!--
-**MoAz06/MoAz06** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend-focused developer studying Computer Science at Leiden University.
 
-Here are some ideas to get you started:
+🔧 Tech
+- C++, Python, SQL
+- Flask (web apps & APIs)
+- Git, Unix tools
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🚀 Projects
+- Real-time chat app (Flask + WebSockets)
+- Data processing pipelines (Python + Bash)
+- Backtracking scheduler (C++)
+
+📌 Currently learning
+- REST APIs
+- Backend architecture
+- C# / .NET
+
+📫 Contact
+- mohamedazahrioui2006@gmail.com
