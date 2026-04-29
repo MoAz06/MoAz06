@@ -1,21 +1,23 @@
-Hi, I'm Mohamed 👋
+Mohamed Azahrioui
 
-Backend-focused developer studying Computer Science at Leiden University.
+Backend-focused Computer Science student (Leiden University)
 
-🔧 Tech
-- C++, Python, SQL
-- Flask (web apps & APIs)
-- Git, Unix tools
+Builds production-style backend systems with APIs, databases, and authentication.
 
-🚀 Projects
-- Real-time chat app (Flask + WebSockets)
-- Data processing pipelines (Python + Bash)
-- Backtracking scheduler (C++)
+Tech:
+Python · C++ · SQL  
+FastAPI · Flask · PostgreSQL · SQLAlchemy  
+JWT · REST APIs · Git · Unix  
 
-📌 Currently learning
-- REST APIs
-- Backend architecture
-- C# / .NET
+Projects:
+- Procurement Risk API — FastAPI backend with PostgreSQL, JWT auth, and data pipeline  
+- Real-time Chat App — Flask + WebSockets  
+- Data Pipelines — Python + Bash  
+- Backtracking Scheduler — C++  
 
-📫 Contact
-- mohamedazahrioui2006@gmail.com
+Currently:
+Backend architecture · Docker · Deployment  
+
+Contact:
+mohamedazahrioui2006@gmail.com  
+github.com/MoAz06
