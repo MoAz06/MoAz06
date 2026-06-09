@@ -6,7 +6,7 @@ Backend-focused Computer Science student at **Leiden University** and part-time 
 **[trustgate-ai-agents](https://github.com/MoAz06/trustgate-ai-agents)** — a runtime authorization layer (action firewall) for AI agents. A Gemini agent can only take an action when live data evidence passes a deterministic policy that returns ALLOW, APPROVAL_REQUIRED, or BLOCK.
 Built solo for the Google Cloud Rapid Agent Hackathon. Live, open source (MIT), 17 automated tests.
 `Node.js` · `Google Cloud (Cloud Run, Vertex AI / Gemini, BigQuery)` · `Fivetran` · `Docker` · `MCP`
-[2-minute demo](https://youtu.be/IeTSkqudJBY) · [Live app](Cloud Run URL) · [Code](https://github.com/MoAz06/trustgate-ai-agents)
+[2-minute demo](https://youtu.be/IeTSkqudJBY) · [Code](https://github.com/MoAz06/trustgate-ai-agents)
 
 ### What I work with
 **Languages:** Python · C++ · SQL · TypeScript (learning)
