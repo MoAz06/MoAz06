@@ -1,48 +1,56 @@
-## Hi, I'm Mohamed
+# › Mohamed Azahrioui
 
-Backend-focused Computer Science student at **Leiden University**, part-time **Software Developer at CodeHive**, and part-time **Backend Developer at Kojac**.
+**Backend & AI-security developer — I build deterministic, auditable guardrails for AI agents.**
 
-I build production-style backend systems: APIs, databases, authentication, automation workflows, and AI/cloud tools. Recently, I built **ReachGate**, a vulnerability-reachability triage tool that helps separate real security risk from scanner noise.
+The idea behind everything I build: let a deterministic rule engine make the
+decision, and let the model only *explain* it. The moment the model gets to
+decide, you've traded a verifiable answer for a confident guess — and in
+security and agent actions, that trade isn't worth it. So every decision ships
+as proof you can verify yourself.
 
-### Featured: ReachGate
+`backend developer` · `The Hague, NL` · `CS @ Leiden` · shipping production code at `CodeHive` + `Kojac`
 
-**ReachGate** — vulnerability-reachability triage for GitLab Orbit.
+---
 
-ReachGate checks whether a reported vulnerability is actually reachable from real application entry points. It uses deterministic graph traversal and bounded analysis to classify findings as reachable, unreachable, or unknown, helping teams focus on vulnerabilities that can realistically be exploited.
+### Selected work
 
-Built for the **GitLab Transcend Hackathon 2026**.
+**[ReachGate](https://github.com/MoAz06/ReachGate)** — vulnerability-reachability triage on GitLab Orbit
 
-`Python` · `GitLab Orbit` · `GitLab CI/CD` · `OpenVEX` · `SARIF` · `MCP` · `pytest`
+Walks the code graph with a bounded BFS to answer what scanners can't: *can this
+vulnerability actually be reached from the app's entry points?* On the codebases
+I tested ~80% of "critical" findings came back not reachable. Deterministic
+verdicts, `UNKNOWN` when unproven, OpenVEX/SARIF exports, an sha256 manifest +
+optional Ed25519 signature, and an offline verifier that needs no token and no network.
 
-[Demo](https://youtu.be/3pqW5-V_8sg)
+`Python` · `BFS` · `OpenVEX` · `SARIF` · `Ed25519` · `MCP` · `pytest`
 
-### Also built: TrustGate
+**[TrustGate](https://github.com/MoAz06/trustgate-ai-agents)** — runtime authorization gate for AI agents
 
-**[trustgate-ai-agents](https://github.com/MoAz06/trustgate-ai-agents)** — a runtime authorization layer, or action firewall, for AI agents.
+Sits between an agent and a risky action (like a refund) and checks live business
+evidence before it runs: `ALLOW`, `APPROVAL_REQUIRED`, or `BLOCK`, each with an
+auditable receipt. The model proposes; the policy engine decides.
 
-A Gemini-powered agent can only take an action when live data evidence passes deterministic policy checks returning `ALLOW`, `APPROVAL_REQUIRED`, or `BLOCK`.
+`Node.js` · `Google Cloud Run` · `Vertex AI / Gemini` · `BigQuery` · `Fivetran` · `MCP` · `React`
 
-Built solo for the **Google Cloud Rapid Agent Hackathon**. Open source under MIT, deployed on Google Cloud, with automated tests.
+---
 
-`Node.js` · `Google Cloud Run` · `Vertex AI / Gemini` · `BigQuery` · `Fivetran` · `Docker` · `MCP`
+### Writing
 
-[2-minute demo](https://youtu.be/IeTSkqudJBY) · [Code](https://github.com/MoAz06/trustgate-ai-agents)
+I write about agent governance, reachability, and data-supply-chain trust — the
+questions that show up once agents meet real operational data.
 
-### What I work with
+- [Most of your critical vulnerabilities cannot be reached](https://moaz06.com/writing/reachgate-reachability-deterministic-verdicts)
+- [What Microsoft's Agent Governance Toolkit doesn't cover: data supply chain trust](https://moaz06.com/writing/data-supply-chain-trust-agent-governance)
 
-**Languages:** Python · JavaScript/Node.js · C++ · SQL · TypeScript  
-**Backend & APIs:** FastAPI · Flask · REST · JWT · OAuth2 · OpenAPI/Swagger · WebSockets · MCP  
-**Cloud & AI:** Azure · Google Cloud Run · Vertex AI / Gemini · BigQuery · Fivetran · Docker  
-**Data:** PostgreSQL · SQLite · SQLAlchemy · CSV/Excel pipelines  
-**Tools:** Git · Linux/WSL · Bash · pytest · Uvicorn
+---
 
-### Other projects
+### Stack
 
-- **Procurement Risk API** — FastAPI + PostgreSQL REST API with JWT/OAuth2 auth, risk-detection rules, and Swagger docs.
-- **bol.com → DPD Export Tool** — Python automation integrating the bol.com API with SQLite to generate shipping exports.
-- **Real-Time Chat App** — Flask + WebSockets with session auth and an MVC-style structure.
-- **Backtracking Scheduler** — C++ constraint solver with pruning to optimise search complexity.
+**Languages** Python · TypeScript · JavaScript/Node · C++ · SQL
+**AI & security** agent guardrails · RAG · MCP · policy engines · reachability analysis · OpenVEX · SARIF · Ed25519
+**Backend** FastAPI · Flask · Node · REST · WebSockets · JWT/OAuth2 · SQLAlchemy · Alembic
+**Cloud & data** Azure OpenAI · Azure AI Search · Google Cloud Run · BigQuery · Docker · PostgreSQL
 
-### Reach me
+---
 
-mohamedazahrioui2006@gmail.com · [Portfolio](https://moaz06-dev.vercel.app) · HackerRank certified: Software Engineer, REST API
+🌐 [moaz06.com](https://moaz06.com) · 💼 [LinkedIn](https://www.linkedin.com/in/mohamed-azahrioui-481100252/) · ✉️ mohamedazahrioui2006@gmail.com
